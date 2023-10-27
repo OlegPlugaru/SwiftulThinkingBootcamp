@@ -8,8 +8,33 @@
 import SwiftUI
 
 struct ExtractedFunctionsBootcamp: View {
+    @State var backgroundColor: Color = Color.pink
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            // background
+            backgroundColor.ignoresSafeArea()
+            // content
+           contentLayer
+        }
+    }
+    var contentLayer: some View {
+        VStack {
+            Text("Title")
+                .font(.largeTitle)
+            Button {
+               buttonPressed()
+            } label: {
+                Text("PRESS ME")
+                    .font(.headline)
+                    .foregroundColor(.white)
+                    .padding()
+                    .background(Color.black)
+                    .cornerRadius(10)
+            }
+        }
+    }
+    func buttonPressed() {
+        backgroundColor = .yellow
     }
 }
 

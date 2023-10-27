@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftulThinkingBootcampApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AnimationBootcamp()
         }
     }
 }

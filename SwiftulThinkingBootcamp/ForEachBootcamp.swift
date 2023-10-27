@@ -8,8 +8,19 @@
 import SwiftUI
 
 struct ForEachBootcamp: View {
+    let data: [String] = ["Hi", "Hello", "Hey everyone"]
+    let myString: String = "Hello"
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            ForEach(data.indices, id: \.self) { index in
+                Text("\(data[index]) \(index)")
+            }
+            
+            ForEach(0..<100) { index in
+                Circle()
+                    .frame(height: 50)
+            }
+        }
     }
 }
 

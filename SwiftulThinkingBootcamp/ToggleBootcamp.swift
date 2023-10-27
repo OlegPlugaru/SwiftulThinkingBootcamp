@@ -8,8 +8,28 @@
 import SwiftUI
 
 struct ToggleBootcamp: View {
+    
+    @State var toggleIsOn: Bool = false
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            
+            HStack {
+                Text("Status:")
+                Text(toggleIsOn ? "Online" : "Offline")
+                    
+            }
+            .font(.title)
+            Toggle(
+                isOn: $toggleIsOn,
+                label: {
+                Text("Label")
+            })
+            .toggleStyle(SwitchToggleStyle(tint: Color.purple))
+            
+            Spacer()
+        }
+        .padding(.horizontal, 100)
     }
 }
 

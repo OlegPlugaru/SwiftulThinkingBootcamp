@@ -9,7 +9,15 @@ import SwiftUI
 
 struct ColorsBootcamp: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        RoundedRectangle(cornerRadius: 25.0)
+            .fill(
+                // Color.primary
+               // Color(UIColor.secondarySystemBackground)
+                Color("CustomColor")
+            )
+            .frame(width: 300, height: 200)
+           // .shadow(radius: 10)
+            .shadow(color: Color("CustomColor").opacity(0.3), radius: 10, x: -20, y: -20)
     }
 }
 

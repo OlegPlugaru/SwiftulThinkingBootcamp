@@ -9,7 +9,17 @@ import SwiftUI
 
 struct IconsBootcamp: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Image(systemName: "person.fill.badge.plus")
+            .renderingMode(.original)
+            .font(.largeTitle)
+            //.resizable()
+            //.aspectRatio(contentMode: .fit)
+           // .scaledToFill()
+            //.font(.caption)
+            // .font(.system(size: 200))
+           // .foregroundColor(Color.red)
+            .frame(width: 300, height: 300)
+            //.clipped()
     }
 }
 
