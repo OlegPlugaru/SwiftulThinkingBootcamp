@@ -28,6 +28,9 @@
 		DD4747702AE6EEA800815C7F /* SheetsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD47476F2AE6EEA800815C7F /* SheetsBootcamp.swift */; };
 		DD4747722AE6F3ED00815C7F /* PopoverBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4747712AE6F3ED00815C7F /* PopoverBootcamp.swift */; };
 		DD4747742AE6F7A600815C7F /* NavigationViewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4747732AE6F7A600815C7F /* NavigationViewBootcamp.swift */; };
+		DD48593E2AED239F00D589BD /* StepperBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD48593D2AED239F00D589BD /* StepperBootcamp.swift */; };
+		DD4859402AED25DA00D589BD /* SliderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD48593F2AED25DA00D589BD /* SliderBootcamp.swift */; };
+		DD4859422AED2FA200D589BD /* TabViewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4859412AED2FA200D589BD /* TabViewBootcamp.swift */; };
 		DD4F35F62AE97E8E004AD669 /* ListBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4F35F52AE97E8E004AD669 /* ListBootcamp.swift */; };
 		DD4FE0922AEADB2F006984C1 /* AlertBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4FE0912AEADB2F006984C1 /* AlertBootcamp.swift */; };
 		DD4FE0942AEAE503006984C1 /* ActionSheetBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4FE0932AEAE503006984C1 /* ActionSheetBootcamp.swift */; };
@@ -75,6 +78,9 @@
 		DD47476F2AE6EEA800815C7F /* SheetsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetsBootcamp.swift; sourceTree = "<group>"; };
 		DD4747712AE6F3ED00815C7F /* PopoverBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverBootcamp.swift; sourceTree = "<group>"; };
 		DD4747732AE6F7A600815C7F /* NavigationViewBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewBootcamp.swift; sourceTree = "<group>"; };
+		DD48593D2AED239F00D589BD /* StepperBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperBootcamp.swift; sourceTree = "<group>"; };
+		DD48593F2AED25DA00D589BD /* SliderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderBootcamp.swift; sourceTree = "<group>"; };
+		DD4859412AED2FA200D589BD /* TabViewBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewBootcamp.swift; sourceTree = "<group>"; };
 		DD4F35F52AE97E8E004AD669 /* ListBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListBootcamp.swift; sourceTree = "<group>"; };
 		DD4FE0912AEADB2F006984C1 /* AlertBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertBootcamp.swift; sourceTree = "<group>"; };
 		DD4FE0932AEAE503006984C1 /* ActionSheetBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetBootcamp.swift; sourceTree = "<group>"; };
@@ -173,6 +179,9 @@
 				DD5B04B22AEC339F00750861 /* PickerBootcamp.swift */,
 				DDB70D3A2AEC3C4D0000BD53 /* ColorPickerBootcamp.swift */,
 				DDB70D3C2AEC3DE40000BD53 /* DatePickerBootcamp.swift */,
+				DD48593D2AED239F00D589BD /* StepperBootcamp.swift */,
+				DD48593F2AED25DA00D589BD /* SliderBootcamp.swift */,
+				DD4859412AED2FA200D589BD /* TabViewBootcamp.swift */,
 				DDBB2BBB2AE3E87A00AB5119 /* Assets.xcassets */,
 				DDBB2BBD2AE3E87A00AB5119 /* Preview Content */,
 			);
@@ -262,10 +271,12 @@
 				DDBB2BCC2AE3FD8B00AB5119 /* GradientsBootcamp.swift in Sources */,
 				DDBB2BD42AE4531100AB5119 /* BackgroundAndOverlayBootcamp.swift in Sources */,
 				DD5B04AD2AEC2B1300750861 /* TextfieldBootcamp.swift in Sources */,
+				DD48593E2AED239F00D589BD /* StepperBootcamp.swift in Sources */,
 				DD4FE0962AEAEB36006984C1 /* TestSheetsBootcamp.swift in Sources */,
 				DD3DB6B82AE525B1001B9250 /* ScrollViewBootcamp.swift in Sources */,
 				DD3DB6B02AE514D0001B9250 /* PaddingAndSpacerBootcamp.swift in Sources */,
 				DDBB2BCA2AE3F71B00AB5119 /* ColorsBootcamp.swift in Sources */,
+				DD4859422AED2FA200D589BD /* TabViewBootcamp.swift in Sources */,
 				DD3DB6C42AE541A2001B9250 /* ExtractSubviewsBootcamp.swift in Sources */,
 				DDBB2BD22AE44E4D00AB5119 /* FrameBootcamp.swift in Sources */,
 				DD3DB6C22AE53EE7001B9250 /* ExtractedFunctionsBootcamp.swift in Sources */,
@@ -287,6 +298,7 @@
 				DD5B04AF2AEC2F5900750861 /* TextEditorBootcamp.swift in Sources */,
 				DD4747722AE6F3ED00815C7F /* PopoverBootcamp.swift in Sources */,
 				DDB70D3B2AEC3C4D0000BD53 /* ColorPickerBootcamp.swift in Sources */,
+				DD4859402AED25DA00D589BD /* SliderBootcamp.swift in Sources */,
 				DD4FE0942AEAE503006984C1 /* ActionSheetBootcamp.swift in Sources */,
 				DD3DB6C62AE54403001B9250 /* BindingBootcamp.swift in Sources */,
 				DD5B04B12AEC321600750861 /* ToggleBootcamp.swift in Sources */,
