@@ -31,6 +31,8 @@
 		DD48593E2AED239F00D589BD /* StepperBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD48593D2AED239F00D589BD /* StepperBootcamp.swift */; };
 		DD4859402AED25DA00D589BD /* SliderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD48593F2AED25DA00D589BD /* SliderBootcamp.swift */; };
 		DD4859422AED2FA200D589BD /* TabViewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4859412AED2FA200D589BD /* TabViewBootcamp.swift */; };
+		DD4859442AED38AB00D589BD /* DarkModeBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4859432AED38AB00D589BD /* DarkModeBootcamp.swift */; };
+		DD4859462AED47BA00D589BD /* MarkupsAndDocumentationBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4859452AED47BA00D589BD /* MarkupsAndDocumentationBootcamp.swift */; };
 		DD4F35F62AE97E8E004AD669 /* ListBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4F35F52AE97E8E004AD669 /* ListBootcamp.swift */; };
 		DD4FE0922AEADB2F006984C1 /* AlertBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4FE0912AEADB2F006984C1 /* AlertBootcamp.swift */; };
 		DD4FE0942AEAE503006984C1 /* ActionSheetBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4FE0932AEAE503006984C1 /* ActionSheetBootcamp.swift */; };
@@ -81,6 +83,8 @@
 		DD48593D2AED239F00D589BD /* StepperBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperBootcamp.swift; sourceTree = "<group>"; };
 		DD48593F2AED25DA00D589BD /* SliderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderBootcamp.swift; sourceTree = "<group>"; };
 		DD4859412AED2FA200D589BD /* TabViewBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewBootcamp.swift; sourceTree = "<group>"; };
+		DD4859432AED38AB00D589BD /* DarkModeBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkModeBootcamp.swift; sourceTree = "<group>"; };
+		DD4859452AED47BA00D589BD /* MarkupsAndDocumentationBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkupsAndDocumentationBootcamp.swift; sourceTree = "<group>"; };
 		DD4F35F52AE97E8E004AD669 /* ListBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListBootcamp.swift; sourceTree = "<group>"; };
 		DD4FE0912AEADB2F006984C1 /* AlertBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertBootcamp.swift; sourceTree = "<group>"; };
 		DD4FE0932AEAE503006984C1 /* ActionSheetBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetBootcamp.swift; sourceTree = "<group>"; };
@@ -182,8 +186,10 @@
 				DD48593D2AED239F00D589BD /* StepperBootcamp.swift */,
 				DD48593F2AED25DA00D589BD /* SliderBootcamp.swift */,
 				DD4859412AED2FA200D589BD /* TabViewBootcamp.swift */,
+				DD4859432AED38AB00D589BD /* DarkModeBootcamp.swift */,
 				DDBB2BBB2AE3E87A00AB5119 /* Assets.xcassets */,
 				DDBB2BBD2AE3E87A00AB5119 /* Preview Content */,
+				DD4859452AED47BA00D589BD /* MarkupsAndDocumentationBootcamp.swift */,
 			);
 			path = SwiftulThinkingBootcamp;
 			sourceTree = "<group>";
@@ -286,6 +292,7 @@
 				DDBB2BD02AE44B5200AB5119 /* ImagesBootcamp.swift in Sources */,
 				DD3DB6BE2AE5358F001B9250 /* ButtonsBootcamp.swift in Sources */,
 				DD47476C2AE6E6C200815C7F /* AnimationTimingBootcamp.swift in Sources */,
+				DD4859462AED47BA00D589BD /* MarkupsAndDocumentationBootcamp.swift in Sources */,
 				DD3DB6BC2AE52F3A001B9250 /* SafeAreaBootcamp.swift in Sources */,
 				DDBB2BC82AE3F0D700AB5119 /* ShapesBootcamp.swift in Sources */,
 				DD3DB6B62AE52283001B9250 /* ForEachBootcamp.swift in Sources */,
@@ -297,6 +304,7 @@
 				DD3DB6AE2AE50121001B9250 /* StacksBootcamp.swift in Sources */,
 				DD5B04AF2AEC2F5900750861 /* TextEditorBootcamp.swift in Sources */,
 				DD4747722AE6F3ED00815C7F /* PopoverBootcamp.swift in Sources */,
+				DD4859442AED38AB00D589BD /* DarkModeBootcamp.swift in Sources */,
 				DDB70D3B2AEC3C4D0000BD53 /* ColorPickerBootcamp.swift in Sources */,
 				DD4859402AED25DA00D589BD /* SliderBootcamp.swift in Sources */,
 				DD4FE0942AEAE503006984C1 /* ActionSheetBootcamp.swift in Sources */,
